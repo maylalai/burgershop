@@ -1,0 +1,111 @@
+< link rel="preconnect" href=<link "https://fonts.googleapis.com">
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font=optical-sizing: auto;
+}
+.container {
+  width: 80%;
+  /* background-color: lightblue; */
+  margin: auto;
+}
+.nav {
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand h1 {
+  font-size: 32px;
+}
+
+.nav-brand span {
+  color: darkred;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  transition: all 1s;
+}
+
+.nav-menu a:hover {
+  color: darkred;
+}
+
+.lgn {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: darkred;
+  padding: 10px 20px;
+  border-radius: 120px;
+  color: white;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.hero {
+  /* background-color: rgb(216, 182, 203); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-tagline {
+  width: 50%;
+}
+
+.hero-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-tagline span {
+  color: darkgoldenrod;
+  justify-content: left;
+}
+
+.fc-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fc-card {
+  background-color: rgb(173, 144, 161);
+  width: 22%;
+}
+
+.food-image img {
+  width: 100%;
+}
+
+.fc-price {
+  display: flex;
+  justify-content: space-between;
+  color: brown;
+}
+
+.food-card {
+  width: 12%;
+}
+
+.food-image {
+  width: 50%;
+}
+
+.food-desc {
+  font-size: 10%;
+}
